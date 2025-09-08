@@ -17,7 +17,7 @@ public class aplicarAumentoMain {
 
         System.out.println("Lista de empleados con sueldo actualizado:");
         actualizados.forEach(e ->
-                System.out.printf("%s %s - S/. %.2f%n", e.getNombre(), e.getApellido(), e.getSalario())
+                System.out.printf("%s %s - %s: S/. %.2f%n", e.getNombre(), e.getApellido(), e.getPuesto(), e.getSalario())
         );
     }
 }

@@ -4,12 +4,15 @@ import compartido.Empleado
 
 object AumentoSalarial:
   def calcularAumentoSalarial(listaEmpleados: List[Empleado]): List[Empleado] =
+
+    def aplicaAumento(e: Empleado): Boolean =
+      e.salario < 5000 && e.puesto.equalsIgnoreCase("Analista de Datos")
+
     val empleadosConAumento = listaEmpleados
-      .filter(_.salario < 5000)
+      .filter(aplicaAumento)
       .map(e => e.copy(salario = e.salario * 1.12))
 
     val empleadosSinCambio = listaEmpleados
-      .filter(_.salario >= 5000)
+      .filter(e => !(aplicaAumento(e)))
 
     empleadosConAumento ++ empleadosSinCambio
-    

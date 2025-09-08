@@ -2,7 +2,7 @@ package Pascual_Evelyn.CasoSc
 
 @main def aplicarAumento(): Unit =
   val empleadosOriginales = CargaJson.cargarEmpleados("/empleados.json")
-  
+
   val inicio = System.nanoTime()
   val empleadosActualizados = AumentoSalarial.calcularAumentoSalarial(empleadosOriginales)
   val fin = System.nanoTime()
@@ -12,7 +12,5 @@ package Pascual_Evelyn.CasoSc
 
   println("Lista de empleados con sueldo actualizado:")
   empleadosActualizados.foreach { empleado =>
-    println(f"${empleado.nombre} ${empleado.apellido} - S/. ${empleado.salario}%.2f")
+    println(f"${empleado.nombre} ${empleado.apellido} - ${empleado.puesto}: S/. ${empleado.salario}%.2f")
   }
-  
-  

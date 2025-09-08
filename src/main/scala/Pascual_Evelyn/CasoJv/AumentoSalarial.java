@@ -25,3 +25,4 @@ public class AumentoSalarial {
                 .collect(Collectors.toList());
     }
 }
+
