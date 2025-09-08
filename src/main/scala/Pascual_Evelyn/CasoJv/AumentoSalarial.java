@@ -9,7 +9,7 @@ public class AumentoSalarial {
     public static List<Empleado2> calcularAumento(List<Empleado2> empleados) {
         return empleados.stream()
                 .map(e -> {
-                    if ("Analista de Datos".equalsIgnoreCase(e.getPuesto())) {
+                    if ("Analista de Datos".equalsIgnoreCase(e.getPuesto())&& e.getSalario() < 5000) {
                         return new Empleado2(
                                 e.getNombre(),
                                 e.getApellido(),

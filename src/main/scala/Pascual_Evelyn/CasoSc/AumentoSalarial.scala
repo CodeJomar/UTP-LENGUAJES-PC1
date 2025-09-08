@@ -13,6 +13,6 @@ object AumentoSalarial:
       .map(e => e.copy(salario = e.salario * 1.12))
 
     val empleadosSinCambio = listaEmpleados
-      .filter(e => !(aplicaAumento(e)))
+      .filterNot(aplicaAumento)
 
     empleadosConAumento ++ empleadosSinCambio
