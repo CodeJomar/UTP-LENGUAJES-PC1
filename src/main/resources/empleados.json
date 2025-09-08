@@ -1,0 +1,322 @@
+[
+  {
+    "nombre": "Ana",
+    "apellido": "García",
+    "edad": 28,
+    "puesto": "Analista de Datos",
+    "salario": 4500.0,
+    "fechaContrato": "2021-05-15"
+  },
+  {
+    "nombre": "Luis",
+    "apellido": "Martínez",
+    "edad": 32,
+    "puesto": "Desarrollador",
+    "salario": 6200.0,
+    "fechaContrato": "2019-09-03"
+  },
+  {
+    "nombre": "Sofía",
+    "apellido": "López",
+    "edad": 35,
+    "puesto": "Gerente",
+    "salario": 8500.0,
+    "fechaContrato": "2016-02-20"
+  },
+  {
+    "nombre": "Pedro",
+    "apellido": "Rodríguez",
+    "edad": 29,
+    "puesto": "Analista de Datos",
+    "salario": 5100.0,
+    "fechaContrato": "2020-07-10"
+  },
+  {
+    "nombre": "María",
+    "apellido": "Hernández",
+    "edad": 31,
+    "puesto": "Desarrollador",
+    "salario": 6500.0,
+    "fechaContrato": "2018-12-05"
+  },
+  {
+    "nombre": "Miguel",
+    "apellido": "González",
+    "edad": 27,
+    "puesto": "Analista de Datos",
+    "salario": 4800.0,
+    "fechaContrato": "2022-03-18"
+  },
+  {
+    "nombre": "Juana",
+    "apellido": "Pérez",
+    "edad": 33,
+    "puesto": "Desarrollador",
+    "salario": 5800.0,
+    "fechaContrato": "2019-04-22"
+  },
+  {
+    "nombre": "David",
+    "apellido": "Sánchez",
+    "edad": 40,
+    "puesto": "Gerente",
+    "salario": 9100.0,
+    "fechaContrato": "2015-08-14"
+  },
+  {
+    "nombre": "Elena",
+    "apellido": "Ramírez",
+    "edad": 26,
+    "puesto": "Diseñadora UX",
+    "salario": 5200.0,
+    "fechaContrato": "2021-10-08"
+  },
+  {
+    "nombre": "Lionel",
+    "apellido": "Torres",
+    "edad": 34,
+    "puesto": "Desarrollador",
+    "salario": 6700.0,
+    "fechaContrato": "2017-06-30"
+  },
+  {
+    "nombre": "Laura",
+    "apellido": "Flores",
+    "edad": 28,
+    "puesto": "Analista de Datos",
+    "salario": 4900.0,
+    "fechaContrato": "2020-01-12"
+  },
+  {
+    "nombre": "Jorge",
+    "apellido": "Rivera",
+    "edad": 38,
+    "puesto": "Gerente",
+    "salario": 8800.0,
+    "fechaContrato": "2016-11-25"
+  },
+  {
+    "nombre": "Carmen",
+    "apellido": "Díaz",
+    "edad": 30,
+    "puesto": "Desarrollador",
+    "salario": 6300.0,
+    "fechaContrato": "2019-08-17"
+  },
+  {
+    "nombre": "Ricardo",
+    "apellido": "Morales",
+    "edad": 29,
+    "puesto": "Analista de Datos",
+    "salario": 4700.0,
+    "fechaContrato": "2021-02-28"
+  },
+  {
+    "nombre": "Isabel",
+    "apellido": "Ortiz",
+    "edad": 31,
+    "puesto": "Diseñadora UX",
+    "salario": 5400.0,
+    "fechaContrato": "2018-05-09"
+  },
+  {
+    "nombre": "Fernando",
+    "apellido": "Cruz",
+    "edad": 36,
+    "puesto": "Desarrollador",
+    "salario": 6900.0,
+    "fechaContrato": "2017-03-14"
+  },
+  {
+    "nombre": "Andrea",
+    "apellido": "Reyes",
+    "edad": 37,
+    "puesto": "Gerente",
+    "salario": 9200.0,
+    "fechaContrato": "2015-10-03"
+  },
+  {
+    "nombre": "Roberto",
+    "apellido": "Núñez",
+    "edad": 27,
+    "puesto": "Analista de Datos",
+    "salario": 5000.0,
+    "fechaContrato": "2022-06-19"
+  },
+  {
+    "nombre": "Patricia",
+    "apellido": "Medina",
+    "edad": 32,
+    "puesto": "Desarrollador",
+    "salario": 6400.0,
+    "fechaContrato": "2018-09-22"
+  },
+  {
+    "nombre": "Daniel",
+    "apellido": "Vargas",
+    "edad": 29,
+    "puesto": "Diseñador UX",
+    "salario": 5300.0,
+    "fechaContrato": "2020-04-11"
+  },
+  {
+    "nombre": "Gabriela",
+    "apellido": "Castillo",
+    "edad": 26,
+    "puesto": "Analista de Datos",
+    "salario": 4600.0,
+    "fechaContrato": "2022-01-05"
+  },
+  {
+    "nombre": "Alejandro",
+    "apellido": "Jiménez",
+    "edad": 35,
+    "puesto": "Desarrollador",
+    "salario": 7100.0,
+    "fechaContrato": "2017-07-28"
+  },
+  {
+    "nombre": "Raquel",
+    "apellido": "Mendoza",
+    "edad": 39,
+    "puesto": "Gerente",
+    "salario": 8700.0,
+    "fechaContrato": "2016-05-16"
+  },
+  {
+    "nombre": "Héctor",
+    "apellido": "Guerrero",
+    "edad": 28,
+    "puesto": "Analista de Datos",
+    "salario": 4950.0,
+    "fechaContrato": "2021-08-23"
+  },
+  {
+    "nombre": "Teresa",
+    "apellido": "Rojas",
+    "edad": 33,
+    "puesto": "Desarrollador",
+    "salario": 6600.0,
+    "fechaContrato": "2018-11-07"
+  },
+  {
+    "nombre": "Óscar",
+    "apellido": "Silva",
+    "edad": 30,
+    "puesto": "Diseñador UX",
+    "salario": 5500.0,
+    "fechaContrato": "2019-03-15"
+  },
+  {
+    "nombre": "Mónica",
+    "apellido": "Delgado",
+    "edad": 27,
+    "puesto": "Analista de Datos",
+    "salario": 4850.0,
+    "fechaContrato": "2022-05-30"
+  },
+  {
+    "nombre": "Francisco",
+    "apellido": "Castro",
+    "edad": 34,
+    "puesto": "Desarrollador",
+    "salario": 6800.0,
+    "fechaContrato": "2017-10-12"
+  },
+  {
+    "nombre": "Lucía",
+    "apellido": "Vázquez",
+    "edad": 41,
+    "puesto": "Gerente",
+    "salario": 9400.0,
+    "fechaContrato": "2015-01-08"
+  },
+  {
+    "nombre": "Arturo",
+    "apellido": "Romero",
+    "edad": 29,
+    "puesto": "Analista de Datos",
+    "salario": 5050.0,
+    "fechaContrato": "2020-09-21"
+  },
+  {
+    "nombre": "Silvia",
+    "apellido": "Álvarez",
+    "edad": 31,
+    "puesto": "Desarrollador",
+    "salario": 6250.0,
+    "fechaContrato": "2019-06-04"
+  },
+  {
+    "nombre": "Rafael",
+    "apellido": "Chávez",
+    "edad": 32,
+    "puesto": "Diseñador UX",
+    "salario": 5600.0,
+    "fechaContrato": "2018-02-26"
+  },
+  {
+    "nombre": "Beatriz",
+    "apellido": "Juárez",
+    "edad": 28,
+    "puesto": "Analista de Datos",
+    "salario": 4750.0,
+    "fechaContrato": "2021-11-13"
+  },
+  {
+    "nombre": "Javier",
+    "apellido": "Miranda",
+    "edad": 36,
+    "puesto": "Desarrollador",
+    "salario": 7000.0,
+    "fechaContrato": "2017-01-29"
+  },
+  {
+    "nombre": "Valeria",
+    "apellido": "Campos",
+    "edad": 38,
+    "puesto": "Gerente",
+    "salario": 8900.0,
+    "fechaContrato": "2016-08-06"
+  },
+  {
+    "nombre": "Eduardo",
+    "apellido": "Santos",
+    "edad": 30,
+    "puesto": "Analista de Datos",
+    "salario": 5150.0,
+    "fechaContrato": "2020-03-24"
+  },
+  {
+    "nombre": "Claudia",
+    "apellido": "Luna",
+    "edad": 33,
+    "puesto": "Desarrollador",
+    "salario": 6450.0,
+    "fechaContrato": "2018-07-18"
+  },
+  {
+    "nombre": "Manuel",
+    "apellido": "Espinoza",
+    "edad": 31,
+    "puesto": "Diseñador UX",
+    "salario": 5700.0,
+    "fechaContrato": "2019-12-09"
+  },
+  {
+    "nombre": "Adriana",
+    "apellido": "Mejía",
+    "edad": 27,
+    "puesto": "Analista de Datos",
+    "salario": 4925.0,
+    "fechaContrato": "2022-04-02"
+  },
+  {
+    "nombre": "Sergio",
+    "apellido": "Acosta",
+    "edad": 35,
+    "puesto": "Desarrollador",
+    "salario": 6750.0,
+    "fechaContrato": "2017-09-27"
+  }
+]

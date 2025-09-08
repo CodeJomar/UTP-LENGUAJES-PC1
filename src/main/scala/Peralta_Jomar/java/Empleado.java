@@ -10,6 +10,7 @@ public class Empleado {
     private final double salario;
     private final LocalDate fechaContrato;
     
+    
     public Empleado(String nombre, String apellido, int edad, String puesto, double salario, LocalDate fechaContrato) {
         this.nombre = nombre;
         this.apellido = apellido;
@@ -19,6 +20,7 @@ public class Empleado {
         this.fechaContrato = fechaContrato;
     }
     
+
     public String getNombre() {
         return nombre;
     }
@@ -54,4 +56,6 @@ public class Empleado {
             ", fechaContrato=" + fechaContrato +
             '}';
     }
+    
+    
 }
