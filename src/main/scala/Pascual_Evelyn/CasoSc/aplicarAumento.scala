@@ -14,5 +14,5 @@ package Pascual_Evelyn.CasoSc
   empleadosActualizados.foreach { empleado =>
     println(f"${empleado.nombre} ${empleado.apellido} - ${empleado.puesto}: S/. ${empleado.salario}%.2f")
   }
-  
+
   
