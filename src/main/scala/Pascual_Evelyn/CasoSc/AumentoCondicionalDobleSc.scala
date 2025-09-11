@@ -1,10 +1,10 @@
 package Pascual_Evelyn.CasoSc
 
-import compartido.{CargaJsonSc, Empleado}
+import compartido.{CargaJsonSc, EmpleadoSc}
 
 object AumentoSalarial:
   
-  def calcularAumentoSalarial(listaEmpleados: List[Empleado]): List[Empleado] =
+  def calcularAumentoSalarial(listaEmpleados: List[EmpleadoSc]): List[EmpleadoSc] =
     listaEmpleados
       .filter(e => e.salario < 5000 && e.puesto.equalsIgnoreCase("Analista de Datos"))
       .map(e => e.copy(salario = e.salario * 1.12))

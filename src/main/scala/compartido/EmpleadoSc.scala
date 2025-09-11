@@ -1,7 +1,7 @@
 package compartido
 import io.circe.Decoder
 
-case class Empleado(
+case class EmpleadoSc(
                      nombre: String,
                      apellido: String,
                      edad: Int,
@@ -10,7 +10,7 @@ case class Empleado(
                      fechaContrato: String
                    )
 
-object Empleado:
-  given Decoder[Empleado] = Decoder.derived
+object EmpleadoSc:
+  given Decoder[EmpleadoSc] = Decoder.derived
 
 
