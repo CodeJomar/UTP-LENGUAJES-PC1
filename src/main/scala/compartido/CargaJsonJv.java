@@ -1,19 +1,18 @@
-package Pascual_Evelyn.CasoJv;
+package compartido;
 
-import compartido.Empleado2;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.InputStream;
 import java.util.List;
 
-public class CargaJson {
+public class CargaJsonJv {
 
-    public static List<Empleado2> cargarEmpleados(String rutaJson) {
+    public static List<EmpleadoJv> cargarEmpleados(String rutaJson) {
         try {
-            InputStream input = CargaJson.class.getResourceAsStream(rutaJson);
+            InputStream input = CargaJsonJv.class.getResourceAsStream(rutaJson);
             ObjectMapper mapper = new ObjectMapper();
-            return mapper.readValue(input, new TypeReference<List<Empleado2>>() {});
+            return mapper.readValue(input, new TypeReference<List<EmpleadoJv>>() {});
         } catch (Exception e) {
             System.out.println("Error al leer el JSON: " + e.getMessage());
             return List.of();

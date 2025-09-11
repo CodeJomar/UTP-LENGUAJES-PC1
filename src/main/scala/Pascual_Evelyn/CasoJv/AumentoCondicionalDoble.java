@@ -1,15 +1,22 @@
 package Pascual_Evelyn.CasoJv;
-import compartido.Empleado2;
+import compartido.CargaJsonJv;
+import compartido.EmpleadoJv;
 import java.util.List;
+import java.util.stream.Collectors;
 
-public class aplicarAumentoMain {
+public class AumentoCondicionalDoble {
 
     public static void main(String[] args) {
         
-        List<Empleado2> empleados = CargaJson.cargarEmpleados("/empleados.json");
+        List<EmpleadoJv> empleados = CargaJsonJv.cargarEmpleados("/empleados.json");
 
         long inicio = System.nanoTime();
-        List<Empleado2> actualizados = AumentoSalarial.calcularAumento(empleados);
+        
+        List<EmpleadoJv> actualizados = empleados.stream()
+                .filter(e -> "Analista de Datos".equalsIgnoreCase(e.getPuesto()) && e.getSalario() < 5000)
+                .peek(e -> e.setSalario(e.getSalario()*1.12))
+                .collect(Collectors.toList());
+        
         long fin = System.nanoTime();
 
         double duracionMs = (fin - inicio) / 1e6;

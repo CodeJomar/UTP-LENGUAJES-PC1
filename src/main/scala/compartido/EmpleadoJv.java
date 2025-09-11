@@ -1,6 +1,6 @@
 package compartido;
 
-public class Empleado2 {
+public class EmpleadoJv {
     private String nombre;
     private String apellido;
     private int edad;
@@ -8,7 +8,7 @@ public class Empleado2 {
     private double salario;
     private String fechaContrato;
     
-    public Empleado2(String nombre, String apellido, int edad, String puesto, double salario, String fechaContrato) {
+    public EmpleadoJv(String nombre, String apellido, int edad, String puesto, double salario, String fechaContrato) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
@@ -17,7 +17,7 @@ public class Empleado2 {
         this.fechaContrato = fechaContrato;
     }
     
-    public Empleado2() {
+    public EmpleadoJv() {
     }
 
     public String getNombre() { 
